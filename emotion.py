@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from tensorflow.keras.models import load_model
 
-model = load_model(r"C:\Users\Abdullah\Downloads\emotion_model.keras")
+model = load_model("emotion_model.keras")
 class_names = ['Angry', 'Disgust', 'Fear', 'Happy',
                'Neutral', 'Sad', 'Surprise']
 
